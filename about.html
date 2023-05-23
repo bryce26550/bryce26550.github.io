@@ -8,24 +8,28 @@
     <title>About The Creator</title>
     <style>
         #centerBox {
+
             border-width: 5px;
             border-style: solid;
             border-color: #333333;
             border-radius: 10px 10px 10px 10px;
             background-color: darkblue;
-            font-family: "comic sans ms";
+            font-family: "Comic Sans MS";
             max-width: 600px;
             margin: auto;
             width: 100%;
             color: lime;
-            
         }
 
         h1 {
             text-align: center;
             font-weight: 900;
+            margin: 3px 10px;
         }
-        h2{font-weight: bolder;}
+
+        h2 {
+            font-weight: bolder;
+        }
 
         .blogBox {
             width: auto;
@@ -39,17 +43,19 @@
 
         .blogBox p {
             text-align: justify;
-            
+            padding: auto;
+            margin: auto;
         }
 
         .blogBox img {
             float: left;
-            padding: 5px;
+            padding: auto;
         }
-        .page{
+
+        .page {
             border: 3px solid #333333;
             float: right;
-            margin: 3px;
+            margin: 10px;
             padding: 3px;
             border-radius: 10px;
             background-color: limegreen;
@@ -59,40 +65,49 @@
         /* Use a media query to add a breakpoint at 800px: */
         @media screen and (max-width: 450px) {
 
-            #centerBox{
+            #centerBox {
                 border: none;
                 max-width: none;
                 float: none;
                 width: 100%;
             }
-            .blogBox img{
+
+            h1 {
+                text-align: left;
+            }
+
+            .blogBox img {
                 max-width: none;
                 float: none;
                 width: 100%;
             }
         }
     </style>
-    
+
 </head>
 
 <body>
-    
-<div id="centerBox">
-    <div class="page">
-        <a href="gamefiles/game.html">My Game</a> 
+
+    <div id="centerBox">
+        <div class="page">
+            <a href="gamefiles/game.html">My Game</a>
         </div>
         <div class="page">
-        <a href="index.html">Home Page</a> 
+            <a href="index.html">Home Page</a>
+        </div>
+        <h1>The Creator</h1>
+        <div class="blogBox">
+            <h2>About Myself</h2>
+            <img src="images (1).jfif">
+            <p>
+                Hello to all who see this my name is Bryce Lynd, and I am the Creator of this website.
+                Now then let me describe to you the incredible expirence that I had in computer programing.
+                Lets take a look into the not so distant past that was the beging of the 2023 fourth quarter when I
+                first entered Mr. Smith's proaming class.
+
+            </p>
+        </div>
     </div>
-    <h1>The Creator</h1>
-<div class="blogBox">
-    <h2>About Myself</h2>
-    <img src="images (1).jfif">
-    <p>
-        Hello to all who see this my name is Bryce Lynd, and I am the Creator of this website.
-    </p>
-</div>
-</div>
 </body>
 
 </html>

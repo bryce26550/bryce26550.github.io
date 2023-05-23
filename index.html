@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Final Project</title>
+    <title>The Programing World
+    </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
     <style>
         #centerBox {
-            
+
             border-width: 5px;
             border-style: solid;
             border-color: #333333;
@@ -27,8 +28,12 @@
         h1 {
             text-align: center;
             font-weight: 900;
+            margin: 3px 10px;
         }
-        h2{font-weight: bolder;}
+
+        h2 {
+            font-weight: bolder;
+        }
 
         .blogBox {
             width: auto;
@@ -42,17 +47,19 @@
 
         .blogBox p {
             text-align: justify;
-            
+            padding: auto;
+            margin: auto;
         }
 
         .blogBox img {
             float: left;
-            padding: 5px;
+            padding: auto;
         }
-        .page{
+
+        .page {
             border: 3px solid #333333;
             float: right;
-            margin: 3px;
+            margin: 10px;
             padding: 3px;
             border-radius: 10px;
             background-color: limegreen;
@@ -62,13 +69,18 @@
         /* Use a media query to add a breakpoint at 800px: */
         @media screen and (max-width: 450px) {
 
-            #centerBox{
+            #centerBox {
                 border: none;
                 max-width: none;
                 float: none;
                 width: 100%;
             }
-            .blogBox img{
+
+            h1 {
+                text-align: left;
+            }
+
+            .blogBox img {
                 max-width: none;
                 float: none;
                 width: 100%;
@@ -79,44 +91,32 @@
 </head>
 
 <body>
-    
+
     <div id="centerBox">
         <div class="page">
-            <a href="gamefiles/game.html">My Game</a> 
-            </div>
-            <div class="page">
-            <a href="About.html">The Creator</a> 
+            <a href="gamefiles/game.html">My Game</a>
         </div>
-        <h1>#1 Victory Royale</h1>
-        
+        <div class="page">
+            <a href="about.html">The Creator</a>
+        </div>
+        <h1>The World of Programing</h1>
+
         <div class="blogBox">
-            <h2>Blog Post Title</h2>
-            <img src="images (1).jfif">
-            <p>Lorem ipsum dolor sit amet, consecteSStur adipiscing elit. Nullam sodales scelerisque lacus, vitae
-                vulputate sapien vehicula efficitur. Ut sit amet lorem vel arcu pretium imperdiet. Quisque id est
-                mattis, varius velit at, dictum libero. In mollis, nibh sed dignissim sollicitudin, lacus elit rhoncus
-                turpis, nec tristique ex metus a nunc. Vivamus nibh erat, ultricies vel quam a, rhoncus ultricies sem.
-                Cras eu sapien posuere, sagittis purus in, sodales justo. Suspendisse et ipsum a leo dictum egestas non
-                et libero. Sed hendrerit lectus est, sit amet luctus eros tristique non. Morbi felis arcu, facilisis in
-                cursus sed, tincidunt ut eros. Fusce ut nisl a lacus blandit volutpat. Nulla id volutpat quam.
+            <h2>Interesting Things</h2>
+            <img src="images (2).jfif">
+            <p>There are lots of different computer programing langueges
 
             </p>
         </div>
         <div class="blogBox">
-            <h2>Blog Post Title</h2>
-            <img src="images (1).jfif">
-            <p>Lorem ipsum dolor sit amet, consecteSStur adipiscing elit. Nullam sodales scelerisque lacus, vitae
-                vulputate sapien vehicula efficitur. Ut sit amet lorem vel arcu pretium imperdiet. Quisque id est
-                mattis, varius velit at, dictum libero. In mollis, nibh sed dignissim sollicitudin, lacus elit rhoncus
-                turpis, nec tristique ex metus a nunc. Vivamus nibh erat, ultricies vel quam a, rhoncus ultricies sem.
-                Cras eu sapien posuere, sagittis purus in, sodales justo. Suspendisse et ipsum a leo dictum egestas non
-                et libero. Sed hendrerit lectus est, sit amet luctus eros tristique non. Morbi felis arcu, facilisis in
-                cursus sed, tincidunt ut eros. Fusce ut nisl a lacus blandit volutpat. Nulla id volutpat quam.
+            <h2>A Plan For the Future</h2>
+            <img src="images.jfif">
+            <p>I plan on becoming a video game programer in the future
 
             </p>
         </div>
     </div>
-    
+
 </body>
 
 </html>
