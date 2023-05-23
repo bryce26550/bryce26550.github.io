@@ -5,20 +5,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Weebpage</title>
+    <title>My Final Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+    <style>
+        #centerBox {
+            border-width: 5px;
+            border-style: solid;
+            border-color: #333333;
+            border-radius: 0px 10px 0px 10px;
+            background-color: darkblue;
+            font-family: "Comic Sans MS";
+            max-width: 600px;
+            margin: auto;
+            width: 100%;
+            color: lime;
+        }
+
+        h1 {
+            text-align: center;
+            font-weight: 900;
+        }
+        h2{font-weight: bolder;}
+
+        .blogBox {
+            width: auto;
+            margin: 20px;
+            border: 3px solid #333333;
+            padding: 5px;
+            overflow: auto;
+            background-color: darkviolet;
+            box-shadow: 5px 5px 5px lime
+        }
+
+        .blogBox p {
+            text-align: justify;
+            
+        }
+
+        .blogBox img {
+            float: left;
+        }
+        .page{
+            border: 3px solid #333333;
+            float: right;
+            margin: 3px;
+            padding: 3px;
+            border-radius: 10px;
+            background-color: limegreen;
+            color: lime;
+        }
+
+        /* Use a media query to add a breakpoint at 800px: */
+        @media screen and (max-width: 450px) {
+
+            #centerBox{
+                border: none;
+                max-width: none;
+                float: none;
+                width: 100%;
+            }
+            .blogBox img{
+                max-width: none;
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+
 </head>
 
 <body>
-    <p>Hello! How are you today?</p>
-    <p>I was only attacked by <b>two</b> ninja clans this morning.</p>
-    <p><a href="http://192.168.10.69:420/tutd?thumb=up"><B>thumbs up</B></a></p>
-    <p><a href="http://192.168.10.69:420/tutd?thumb=wiggle"><B>wiggle</B></a></p>
-    <p><a href="http://192.168.10.69:420/tutd?thumb=down"><B>thumbs down</B></a></p>
-    <p><a href="http://192.168.10.69:420/tutd?thumb=oops"><B>remove</B></a></p>
-    <ul>
-        <li> <a href="about.html">About Page</a> </li>
-        <li> <a href="gamefiles/game.html">My Game</a> </li>
-    </ul>
+    
+    <div id="centerBox">
+        <div class="page">
+            <a href="gamefiles/game.html">My Game</a> 
+            </div>
+            <div class="page">
+            <a href="About.html">The Creator</a> 
+        </div>
+        <h1>#1 Victory Royale</h1>
+        
+        <div class="blogBox">
+            <h2>Blog Post Title</h2>
+            <img src="images (1).jfif">
+            <p>Lorem ipsum dolor sit amet, consecteSStur adipiscing elit. Nullam sodales scelerisque lacus, vitae
+                vulputate sapien vehicula efficitur. Ut sit amet lorem vel arcu pretium imperdiet. Quisque id est
+                mattis, varius velit at, dictum libero. In mollis, nibh sed dignissim sollicitudin, lacus elit rhoncus
+                turpis, nec tristique ex metus a nunc. Vivamus nibh erat, ultricies vel quam a, rhoncus ultricies sem.
+                Cras eu sapien posuere, sagittis purus in, sodales justo. Suspendisse et ipsum a leo dictum egestas non
+                et libero. Sed hendrerit lectus est, sit amet luctus eros tristique non. Morbi felis arcu, facilisis in
+                cursus sed, tincidunt ut eros. Fusce ut nisl a lacus blandit volutpat. Nulla id volutpat quam.
+
+            </p>
+        </div>
+        <div class="blogBox">
+            <h2>Blog Post Title</h2>
+            <img src="images (1).jfif">
+            <p>Lorem ipsum dolor sit amet, consecteSStur adipiscing elit. Nullam sodales scelerisque lacus, vitae
+                vulputate sapien vehicula efficitur. Ut sit amet lorem vel arcu pretium imperdiet. Quisque id est
+                mattis, varius velit at, dictum libero. In mollis, nibh sed dignissim sollicitudin, lacus elit rhoncus
+                turpis, nec tristique ex metus a nunc. Vivamus nibh erat, ultricies vel quam a, rhoncus ultricies sem.
+                Cras eu sapien posuere, sagittis purus in, sodales justo. Suspendisse et ipsum a leo dictum egestas non
+                et libero. Sed hendrerit lectus est, sit amet luctus eros tristique non. Morbi felis arcu, facilisis in
+                cursus sed, tincidunt ut eros. Fusce ut nisl a lacus blandit volutpat. Nulla id volutpat quam.
+
+            </p>
+        </div>
+    </div>
+    
 </body>
 
 </html>

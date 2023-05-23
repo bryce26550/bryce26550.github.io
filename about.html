@@ -5,12 +5,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Page</title>
+    <title>About Me</title>
+    <style>
+        #centerBox {
+            border-width: 5px;
+            border-style: solid;
+            border-color: #333333;
+            border-radius: 0px 10px 0px 10px;
+            background-color: darkblue;
+            font-family: "Comic Sans MS";
+            max-width: 600px;
+            margin: auto;
+            width: 100%;
+            color: lime;
+        }
+
+        h1 {
+            text-align: center;
+            font-weight: 900;
+        }
+        h2{font-weight: bolder;}
+
+        .blogBox {
+            width: auto;
+            margin: 20px;
+            border: 3px solid #333333;
+            padding: 5px;
+            overflow: auto;
+            background-color: darkviolet;
+            box-shadow: 5px 5px 5px lime
+        }
+
+        .blogBox p {
+            text-align: justify;
+            
+        }
+
+        .blogBox img {
+            float: left;
+        }
+        .page{
+            border: 3px solid #333333;
+            float: right;
+            margin: 3px;
+            padding: 3px;
+            border-radius: 10px;
+            background-color: limegreen;
+            color: lime;
+        }
+
+        /* Use a media query to add a breakpoint at 800px: */
+        @media screen and (max-width: 450px) {
+
+            #centerBox{
+                border: none;
+                max-width: none;
+                float: none;
+                width: 100%;
+            }
+            .blogBox img{
+                max-width: none;
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+    
 </head>
 
 <body>
-<h1>About Me</h1>
-<p>I do wizard stuff</p>
+    
+<div id="centerBox">
+    <div class="page">
+        <a href="gamefiles/game.html">My Game</a> 
+        </div>
+        <div class="page">
+        <a href="index.html">Home Page</a> 
+    </div>
+    <h1>The Creator</h1>
+<div class="blogBox">
+    <h2>About Myself</h2>
+    <p>
+        Hello to all who see this my name is Bryce Lynd, and I am the Creator of this website.
+    </p>
+</div>
+</div>
 </body>
 
 </html>
